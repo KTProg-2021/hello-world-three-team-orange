@@ -7,12 +7,12 @@ public class Person
 	private string _weight;
 	private string _email;
 
-    public Person(string Name, string Height, string Weight, string Email)
+    public Person(string Name, string Height, string Weight, int Age)
 	{
 		_name = Name;
 		_height = Height;
 		_weight = Weight;
-		_email = Email;
+		_age =  Age;
 	}
 
 	public string Nane
@@ -33,13 +33,14 @@ public class Person
 		set { _weight = value; }
     }
 
-	public string Email
+	public int Age
 	{
-		get {return _email; }
-		set {_email = value; }
+		get {return _age; }
+		set {_age = value; }
 	}
+
 	public void display()
     {
-		Console.WriteLine("Name: {0}    Height: {1}    Weight: {2}   Email: {3}", _name, _height, _weight, _email);
+		Console.WriteLine("Name: {0}    Height: {1}    Weight: {2}   Age: {3}", _name, _height, _weight, _age);
     }
 }
