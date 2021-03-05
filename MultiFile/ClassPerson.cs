@@ -5,7 +5,7 @@ public class Person
 	private string _name;
 	private string _height;
 	private string _weight;
-	private string _email;
+	private string _age;
 
     public Person(string Name, string Height, string Weight, int Age)
 	{
