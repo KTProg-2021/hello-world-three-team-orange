@@ -31,6 +31,6 @@ public class Coordinate
 	}
 	public void display()
     {
-		Console.WriteLine("X: {0}    Y:{1}", _x, _y);
+		Console.WriteLine("X: {0}    Y:{1}    Z:{2}", _x, _y,_z);
     }
 }
