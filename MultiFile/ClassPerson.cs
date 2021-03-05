@@ -40,7 +40,7 @@ public class Person
 	}
 
 	public void display()
-    {
+    { 
 		Console.WriteLine("Name: {0}    Height: {1}    Weight: {2}   Age: {3}", _name, _height, _weight, _age);
     }
 }

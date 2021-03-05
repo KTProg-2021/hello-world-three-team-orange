@@ -30,7 +30,7 @@ public class City
 		get { return _population; }
 		set { _population = value; }
 	}
-
+	 
 	public void display()
 	{
 		Console.WriteLine("{0},  {1},  {2}", _cityName, _state, _population);
