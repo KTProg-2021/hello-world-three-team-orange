@@ -9,7 +9,7 @@ namespace MultiFile
             Coordinate start = new Coordinate(12, 23);
             Item trinket = new Item("box","green");
             Person patient = new Person("Joe Smith", "5'11\"", "175 lbs");
-            Automobile car = new Automobile("Toyota", "RAV4");
+            Automobile car = new Automobile("Toyota", "RAV4", "XLE");
             City location = new City("Framingham", "Massachusetts");
             Appliance kitchenItem = new Appliance("Refrigerator", 799);
 

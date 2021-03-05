@@ -4,11 +4,13 @@ public class Automobile
 {
 	private string _make;
 	private string _model;
+	private string _trim;
 
-	public Automobile(string Make, string Model)
+	public Automobile(string Make, string Model, string Trim)
 	{
 		_make = Make;
 		_model = Model;
+		_trim = Trim;
 	}
 
 	public string Make
@@ -22,9 +24,14 @@ public class Automobile
 		get { return _model; }
 		set { _model = value; }
     }
+	public string Trim {
+        get { return _trim; }
+		set { _trim = value; }
+	}
+
 
 	public void display()
     {
-		Console.WriteLine("Vehicle: {0} {1}", _make, _model);
+		Console.WriteLine("Vehicle: {0} {1} {2}", _make, _model, _trim);
     }
 }
